@@ -19,7 +19,12 @@ class calc{
         System.out.println("4:Division"); 
         
         int choice= sc.nextInt();
+        float result=0;
+        switch(choice){
+            case 1:
+                result=first+second;
+        }
         
-        
+        System.out.println("answer: "+result);
     }
 }
