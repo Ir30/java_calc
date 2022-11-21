@@ -38,7 +38,7 @@ class calc{
                 result=first/second;
                 }
                 catch(Exception e){
-                    System.out.println(e.getLocalizedMessage());
+                    System.out.println(e.getMessage());
                 }
                 break;
 
