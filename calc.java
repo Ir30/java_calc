@@ -17,6 +17,8 @@ class calc{
         System.out.println("2:Substraction");
         System.out.println("3:Multiplication");
         System.out.println("4:Division"); 
+        System.out.println("---------------------");
+        System.out.println();
         
         int choice= sc.nextInt();
         float result=0;
@@ -31,6 +33,10 @@ class calc{
             }
             case 3:{
                 result=first*second;
+                break;
+            }
+            case 4:{
+                result=first/second;
                 break;
             }
 
