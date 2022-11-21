@@ -33,6 +33,10 @@ class calc{
                 result=first*second;
                 break;
             }
+            case 4:{
+                result=first/second;
+                break;
+            }
 
         }
         
