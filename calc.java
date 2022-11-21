@@ -34,8 +34,14 @@ class calc{
                 break;
             }
             case 4:{
+                try{
                 result=first/second;
+                }
+                catch(Exception e){
+                    System.out.println(e.getLocalizedMessage());
+                }
                 break;
+
             }
 
         }
