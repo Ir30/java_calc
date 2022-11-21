@@ -21,8 +21,15 @@ class calc{
         int choice= sc.nextInt();
         float result=0;
         switch(choice){
-            case 1:
+            case 1:{
                 result=first+second;
+                break;
+            }
+            case 2:{
+                result=first-second;
+                break;
+            }
+
         }
         
         System.out.println("answer: "+result);
